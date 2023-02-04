@@ -1,0 +1,9 @@
+{
+	"author": "Roy Ivy III <rivy.dev@gmail.com>",
+	"description": "Portable 'uutils' as `uu` (x86; 'busybox'-type)",
+	"name": "@uutils/uu",
+	"license": "MIT",
+	"version": "0.0.17",
+	"engines": { "node": ">=4" },
+	"bin": "./src/main.js"
+}
