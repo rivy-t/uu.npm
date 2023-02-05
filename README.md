@@ -4,14 +4,16 @@
 
 # install
 
-`npm install @uutils/uu --save-dev`
+`npm install git+https://github.com/rivy-t/uu.npm.git#master --save-dev`
+
+<!-- `npm install @uutils/uu --save-dev` -->
 
 # use in _package.json_
 
-```json
+```jsonc
 //...
 scripts: {
-  "foo": "uux UTIL ARGS"
+  "foo": "uu UTIL ARGS"
 }
 //...
 ```
